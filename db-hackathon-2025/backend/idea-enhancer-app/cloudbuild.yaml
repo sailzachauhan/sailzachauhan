@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/hack-team-bank-the-unbanked/bank-the-unbanked/idea_enh:0.0.9', '.']
+images:
+- 'us-central1-docker.pkg.dev/hack-team-bank-the-unbanked/bank-the-unbanked/idea_enh:0.0.9'
